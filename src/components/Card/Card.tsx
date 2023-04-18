@@ -1,0 +1,34 @@
+import { ReactElement } from "react";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+
+import "./Card.css";
+
+interface ICardCompProps {
+  img: string;
+  title: string;
+  description: string;
+  onChange: (value: string) => void;
+}
+
+export const CardComp = ({
+  img,
+  title,
+  description,
+  onChange,
+}: ICardCompProps): ReactElement => {
+  return (
+    <div className="cart__cont">
+      <Card className="card" style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={img} />
+        <Card.Body>
+          <Card.Title className="card__title">{title}</Card.Title>
+          <Card.Text className="card__text">{description}</Card.Text>
+          <Button onClick={() => onChange(title)} variant="warning">
+            Выбрать
+          </Button>
+        </Card.Body>
+      </Card>
+    </div>
+  );
+};

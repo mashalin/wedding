@@ -1,0 +1,135 @@
+.menu {
+    background: linear-gradient(rgb(245 244 247), #c3a7a6, rgb(245 244 247));
+    padding: 9rem 0 5rem 0;
+    position: relative;
+}
+
+.menu__title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.menu__text {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.menu__text_title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Caveat', cursive;
+    margin-top: 3rem;
+}
+
+.menu__send {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Caveat', cursive;
+    margin-top: 5rem;
+}
+
+.menu__send_text {
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+    margin-top: 0.5rem;
+}
+
+.menu__starter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu__send_input {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__send_input input {
+    width: 60%;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: #c3a7a6 solid 2px;
+}
+
+.menu__button {
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.menu__toast {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+}
+
+@media (max-width: 767px) {
+    .menu__title {
+        font-size: 2.3rem;
+    }
+    
+    .menu__text {
+        font-size: 1.3rem;
+    }
+    
+    .menu__text_title {
+        font-size: 2.3rem;
+    }
+    
+    .menu__send {
+        font-size: 2.3rem;
+    }
+    
+    .menu__send_text {
+        font-size: 1.8rem;
+    }
+    
+    .menu__send_input input {
+        width: 80%;
+        font-size: 1.8rem;
+    }
+    
+    .menu__button {
+        font-size: 1.3rem;
+    }
+    
+    .menu__toast {
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .menu__title {
+        font-size: 2rem;
+    }
+    
+    .menu__text_title {
+        font-size: 2rem;
+    }
+    
+    .menu__send {
+        font-size: 2rem;
+    }
+    
+    .menu__send_input input {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .menu__send_input {
+        margin-top: 2.5rem;
+    }
+}

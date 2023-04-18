@@ -1,0 +1,22 @@
+.event_program {
+    background: linear-gradient(rgb(245 244 247), #c3a7a6, rgb(245 244 247));
+    padding: 9rem 0 5rem 0;
+}
+
+.event_program__title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .event_program__title {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .event_program__title {
+        font-size: 2rem;
+    }
+}
+  

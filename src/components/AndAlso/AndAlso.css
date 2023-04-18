@@ -1,0 +1,63 @@
+.andAlso {
+    background: linear-gradient(rgb(245 244 247), #c3a7a6, rgb(245 244 247));
+    padding: 4rem 0 5rem 0;
+}
+
+.andAlso__title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.andAlso__text {
+    font-size: 2.5rem;
+    font-family: 'Caveat', cursive;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.andAlso__text2 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.andAlso__flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.andAlso__img {
+   margin-left: 2rem;
+}
+
+@media (max-width: 767px) {
+    .andAlso__title {
+        font-size: 2.3rem;
+    }
+    
+    .andAlso__text {
+        font-size: 2.3rem;
+        margin-top: 3rem;
+    }
+    
+    .andAlso__text2 {
+        font-size: 1.3rem;
+    }
+    
+    .andAlso__img {
+       margin-left: 0;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .andAlso__title {
+        font-size: 2rem;
+    }
+    
+    .andAlso__text {
+        font-size: 2rem;
+    }
+}
+  

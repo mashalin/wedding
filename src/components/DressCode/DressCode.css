@@ -1,0 +1,116 @@
+.dress_code {
+    padding: 4rem 0 0 0;
+}
+
+.dress_code__title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.dress_code__text {
+    font-size: 2.5rem;
+    font-family: 'Caveat', cursive;
+    margin-top: 2rem;
+}
+
+.dress_code__text_center {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Caveat', cursive;
+    color: #c3a7a6;
+}
+
+.dress_code__fun {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+.dress_code__ps {
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+}
+
+.dress_code_mr {
+    margin-top: 0.5rem;
+}
+
+.dress_code__text_center2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Caveat', cursive;
+}
+
+.hr {
+    width: 100%;
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hr_img {
+    display: block;
+    margin-left: 1rem;
+}
+
+.horizontal-gradient {
+    height: 5px;
+    margin: 5rem 0;
+    background: #c3a7a6;
+}
+
+.dress_code__fun2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+    .dress_code__title {
+        font-size: 2.3rem;
+    }
+    
+    .dress_code__text {
+        font-size: 2.3rem;
+    }
+    
+    .dress_code__text_center {
+        font-size: 2.3rem;
+    }
+    
+    .dress_code__fun {
+        font-size: 1.3rem;
+    }
+    
+    .dress_code__ps {
+        font-size: 1.8rem;
+    }
+    
+    .dress_code__text_center2 {
+        font-size: 2.3rem;
+    }
+    
+    .dress_code__fun2 {
+        font-size: 1.3rem;
+    }
+
+    .dress_code_mr {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .dress_code__title {
+        font-size: 2rem;
+    }
+    
+    .dress_code__text {
+        font-size: 2rem;
+    }
+    
+    .dress_code__text_center {
+        font-size: 2rem;
+    }
+    
+    .dress_code__text_center2 {
+        font-size: 2rem;
+    }
+}

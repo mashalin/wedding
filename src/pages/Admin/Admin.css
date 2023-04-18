@@ -1,0 +1,44 @@
+.admin__header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.admin__title {
+    font-size: 3.5rem;
+    font-family: 'Caveat', cursive;
+    margin-top: 3rem;
+}
+
+.admin__input {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.admin__input input {
+    width: 60%;
+    height: 4rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: #c3a7a6 solid 2px;
+}
+
+.admin__button {
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    margin: 3.5rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.admin__toast {
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

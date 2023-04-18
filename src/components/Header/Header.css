@@ -1,0 +1,18 @@
+.nav {
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+ .navbar {
+   background: linear-gradient(#c3a7a6, rgb(245 244 247));
+} 
+
+@media (max-width: 1200px) {
+  .navbar__toggle {
+    margin-left: auto;
+  }
+
+  .nav__link {
+    margin-left: auto;
+  }
+}

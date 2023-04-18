@@ -1,0 +1,38 @@
+.card {
+    margin-top: 1.5rem;
+}
+
+.card__text {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+
+.card__title {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    .cart__cont {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card {
+        margin-top: 3rem;
+    }
+    
+    .card__text {
+        font-size: 1.8rem;
+    }
+    
+    .card__title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .card__text {
+        font-size: 1.5rem;
+    }
+}

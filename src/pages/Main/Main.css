@@ -1,0 +1,14 @@
+.gold {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20%;
+    z-index: 100;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 575px) {
+    .gold {
+        width: 30%;
+    }
+}
