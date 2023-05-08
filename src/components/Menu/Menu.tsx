@@ -5,6 +5,12 @@ import axios from "axios";
 import "./Menu.css";
 import { CardComp } from "../Card";
 import { Button, Toast } from "react-bootstrap";
+import salad1 from "./../../assets/salad1.jpg";
+import salad2 from "./../../assets/salad2.jpg";
+import salad3 from "./../../assets/salad3.jpg";
+import mainDish1 from "./../../assets/mainDish1.jpg";
+import mainDish2 from "./../../assets/mainDish2.jpg";
+import mainDish3 from "./../../assets/mainDish3.jpg";
 
 export const Menu = (): ReactElement => {
   const [starter, setStarter] = useState("");
@@ -38,7 +44,7 @@ export const Menu = (): ReactElement => {
 
     try {
       await axios.post(process.env.REACT_APP_API_URL!, {
-        data: `${name}: стартер - ${starter}, основное блюдо - ${mainDish}`,
+        data: `${name}: салат - ${starter}, основное блюдо - ${mainDish}`,
       });
       setToastText("Ваши данные успешно отправлены!");
       setToastVariant("success");
@@ -54,54 +60,54 @@ export const Menu = (): ReactElement => {
       <Container>
         <h2 className="menu__title">Меню</h2>
         <div className="menu__text">
-          Предлагаем выбрать 1 вариант стартера и 1 вариант основного блюда из
+          Предлагаем выбрать 1 вариант салата и 1 вариант основного блюда из
           предложенных ниже:
         </div>
-        <div className="menu__text_title"> Стартер </div>
+        <div className="menu__text_title"> Салаты </div>
         <div className="menu__starter">
           <CardComp
             onChange={setStarter}
-            img="https://klike.net/uploads/posts/2019-06/1559545617_2.jpg"
-            title="Стартер1"
-            description="Описание"
+            img={salad1}
+            title="Салат с форелью и томленой грушей"
+            description="Салатные листья, маринованная форель, томленая груша, цитрусовый сыр, заправка из лайма и кленового сиропа, кедровый орех"
           />
           <CardComp
             onChange={setStarter}
-            img="https://klike.net/uploads/posts/2019-06/1559545617_2.jpg"
-            title="Стартер2"
-            description="Описание"
+            img={salad2}
+            title="Салат с копченым цыпленком и горчичным сыром"
+            description="Салатные листья, шпинатный айоли, томаты, горчичный сыр, филе копченого цыпленка, жареный лук, жареные семечки"
           />
           <CardComp
             onChange={setStarter}
-            img="https://klike.net/uploads/posts/2019-06/1559545617_2.jpg"
-            title="Стартер3"
-            description="Описание"
+            img={salad3}
+            title="Теплый салат с пастрами"
+            description="Замеченная говяжья грудинка, баклажаны, цукини, томаты, маринованный редис, салатные листья, кунжут, горчичная заправка"
           />
         </div>
-        <div className="menu__text_title"> Основное блюдо </div>
+        <div className="menu__text_title"> Основные блюда </div>
         <div className="menu__starter">
           <CardComp
             onChange={setMainDish}
-            img="https://klike.net/uploads/posts/2019-06/1559545617_2.jpg"
-            title="Основное блюдо1"
-            description="Описание"
+            img={mainDish1}
+            title="Цыпленок с гарниром из кукурузы и сыром бри"
+            description="Грудка цыпленка на коже, сливочный сыр, кукуруза, миндаль, сливки, сыр бри"
           />
           <CardComp
             onChange={setMainDish}
-            img="https://klike.net/uploads/posts/2019-06/1559545617_2.jpg"
-            title="Основное блюдо2"
-            description="Описание"
+            img={mainDish2}
+            title="Телячьи щечки с картофелем черри и вешенками"
+            description="Телячьи щечки, молодой картофель, вешенки, шпинат, соус демигляс"
           />
           <CardComp
             onChange={setMainDish}
-            img="https://klike.net/uploads/posts/2019-06/1559545617_2.jpg"
-            title="Основное блюдо3"
-            description="Описание"
+            img={mainDish3}
+            title="Буженина с картофельным пюре и грибным соусом"
+            description="Свиная шея, картофель, масло, сливки, шампиньоны, белые грибы, французская горчица"
           />
         </div>
 
         <div className="menu__send"> Ваш выбор: </div>
-        <div className="menu__send_text">Стартер - {starter}</div>
+        <div className="menu__send_text">Салат - {starter}</div>
         <div className="menu__send_text">Основное блюдо - {mainDish}</div>
         <div className="menu__send_input">
           <input

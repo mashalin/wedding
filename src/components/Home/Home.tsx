@@ -2,6 +2,7 @@ import { ReactElement } from "react";
 import { Container } from "react-bootstrap";
 
 import "./Home.css";
+import photo from "./../../assets/photo.jpg";
 
 export const Home = (): ReactElement => {
   return (
@@ -14,7 +15,9 @@ export const Home = (): ReactElement => {
             Приглашаем на нашу свадебную вечеринку!
           </div>
         </div>
-        <div className="photo" />
+        <div className="photo">
+          <img className="photo__img" src={photo} alt="" />
+        </div>
       </Container>
     </div>
   );

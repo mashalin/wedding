@@ -4,11 +4,25 @@
 
 .card__text {
     font-family: 'Caveat', cursive;
-    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.card__sostav {
+    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
 }
 
 .card__title {
     font-size: 1.5rem;
+}
+
+.card__img {
+    height: 280px;
+    object-fit: cover;
 }
 
 @media (max-width: 767px) {
@@ -23,16 +37,10 @@
     }
     
     .card__text {
-        font-size: 1.8rem;
+        font-size: 1.1rem;
     }
     
     .card__title {
         font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 500px) {
-    .card__text {
-        font-size: 1.5rem;
     }
 }

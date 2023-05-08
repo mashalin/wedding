@@ -20,10 +20,11 @@ export const CardComp = ({
   return (
     <div className="cart__cont">
       <Card className="card" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={img} />
+        <Card.Img className="card__img" variant="top" src={img} />
         <Card.Body>
           <Card.Title className="card__title">{title}</Card.Title>
-          <Card.Text className="card__text">{description}</Card.Text>
+          <Card.Text className="card__text">Состав:</Card.Text>
+          <Card.Text className="card__sostav">{description}</Card.Text>
           <Button onClick={() => onChange(title)} variant="warning">
             Выбрать
           </Button>

@@ -8,15 +8,15 @@
 }
 
 .dress_code__text {
-    font-size: 2.5rem;
-    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 2rem;
 }
 
 .dress_code__text_center {
     text-align: center;
-    font-size: 2.5rem;
-    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
     color: #c3a7a6;
 }
 
@@ -26,8 +26,9 @@
 }
 
 .dress_code__ps {
-    font-size: 2rem;
-    font-family: 'Caveat', cursive;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1rem;
 }
 
 .dress_code_mr {
@@ -36,8 +37,8 @@
 
 .dress_code__text_center2 {
     text-align: center;
-    font-size: 2.5rem;
-    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hr {
@@ -69,11 +70,11 @@
     }
     
     .dress_code__text {
-        font-size: 2.3rem;
+        font-size: 1.6rem;
     }
     
     .dress_code__text_center {
-        font-size: 2.3rem;
+        font-size: 1.6rem;
     }
     
     .dress_code__fun {
@@ -81,11 +82,11 @@
     }
     
     .dress_code__ps {
-        font-size: 1.8rem;
+        font-size: 1.1rem;
     }
     
     .dress_code__text_center2 {
-        font-size: 2.3rem;
+        font-size: 1.6rem;
     }
     
     .dress_code__fun2 {
@@ -103,14 +104,14 @@
     }
     
     .dress_code__text {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     
     .dress_code__text_center {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     
     .dress_code__text_center2 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 }
