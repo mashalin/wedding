@@ -1,34 +1,45 @@
 .dress_code {
-    padding: 4rem 0 0 0;
+    padding: 4rem 0 5rem 0;
 }
 
 .dress_code__title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
 .dress_code__text {
     font-size: 1.8rem;
-    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
     margin-top: 2rem;
+}
+
+.dress_code__text_mr {
+    padding-top: 2rem;
 }
 
 .dress_code__text_center {
     text-align: center;
-    font-size: 1.8rem;
-    font-family: 'Open Sans', sans-serif;
-    color: #c3a7a6;
+    font-size: 1.6rem;
+    color: #00d3c0;
+    font-style: italic;
 }
 
 .dress_code__fun {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.dress_code__fun3 {
+    font-size: 1.2rem;
+    margin-top: 4rem;
 }
 
 .dress_code__ps {
     font-size: 1.3rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 1rem;
+    font-style: italic;
 }
 
 .dress_code_mr {
@@ -53,52 +64,31 @@
     margin-left: 1rem;
 }
 
-.horizontal-gradient {
-    height: 5px;
-    margin: 5rem 0;
-    background: #c3a7a6;
+.dress_code__fun2 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.dress_code__fun2 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
+.dress_code__real {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media (max-width: 767px) {
-    .dress_code__title {
-        font-size: 2.3rem;
-    }
-    
-    .dress_code__text {
-        font-size: 1.6rem;
-    }
-    
-    .dress_code__text_center {
-        font-size: 1.6rem;
-    }
-    
-    .dress_code__fun {
-        font-size: 1.3rem;
-    }
-    
     .dress_code__ps {
         font-size: 1.1rem;
     }
     
-    .dress_code__text_center2 {
-        font-size: 1.6rem;
-    }
-    
     .dress_code__fun2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
-    .dress_code_mr {
-        margin-top: 1.5rem;
+    .dress_code__real {
+        font-size: 1.1rem;
     }
-}
 
-@media (max-width: 500px) {
     .dress_code__title {
         font-size: 2rem;
     }
@@ -108,6 +98,10 @@
     }
     
     .dress_code__text_center {
+        font-size: 1.3rem;
+    }
+
+    .dress_code__text_center_light {
         font-size: 1.3rem;
     }
     

@@ -107,8 +107,12 @@ export const Menu = (): ReactElement => {
         </div>
 
         <div className="menu__send"> Ваш выбор: </div>
+
+        <div className="menu__send_text_container">
         <div className="menu__send_text">Салат - {starter}</div>
         <div className="menu__send_text">Основное блюдо - {mainDish}</div>
+        </div>
+
         <div className="menu__send_input">
           <input
             value={name}
@@ -117,7 +121,7 @@ export const Menu = (): ReactElement => {
             placeholder="Введите ваше имя и фамилию..."
           />
         </div>
-        <Button onClick={send} className="menu__button" variant="warning">
+        <Button onClick={send} className="menu__button" variant="primary">
           Отправить
         </Button>
         <Toast

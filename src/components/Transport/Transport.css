@@ -3,66 +3,56 @@
 }
 
 .transport__title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
 .transport__text_center {
-    font-size: 2.5rem;
-    margin: 3rem 0;
-    color: #c3a7a6;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #00d3c0;
     text-align: center;
+    font-style: italic;
 }
 
 .transport__text {
     font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 .transport__link {
     text-decoration: none;
-    color: #c3a7a6;
+    color: #00d3c0;
     margin-left: 1rem;
+    font-style: italic;
 }
 
 .transport__link:hover {
-    color: #9f5e5c;
+    color: #04ac9d;
 }
 
 .transport__flex {
     display: flex;
     flex-wrap: wrap;
     font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
     margin-top: 1.5rem;
 }
 
 @media (max-width: 767px) {
     .transport__title {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
     
     .transport__text_center {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
     
     .transport__text {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .transport__flex {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 500px) {
-    .transport__title {
-        font-size: 2rem;
-    }
-    
-    .transport__text_center {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 }
   

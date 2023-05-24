@@ -10,15 +10,13 @@ export const Home = (): ReactElement => {
       <Container>
         <div className="title">
           <h1 className="title__names">Саша & Коля</h1>
-          <div className="title__text">14 - 16 августа 2023 г</div>
+          <div className="title__text">7 - 9 августа 2023 г</div>
           <div className="title__text title__invite">
             Приглашаем на нашу свадебную вечеринку!
           </div>
         </div>
-        <div className="photo">
-          <img className="photo__img" src={photo} alt="" />
-        </div>
       </Container>
+      <img className="photo__img" src={photo} alt="" />
     </div>
   );
 };

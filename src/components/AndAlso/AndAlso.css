@@ -1,24 +1,25 @@
 .andAlso {
-    background: linear-gradient(rgb(245 244 247), #c3a7a6, rgb(245 244 247));
     padding: 4rem 0 5rem 0;
+    background: #f2f2f2;
 }
 
 .andAlso__title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
 .andAlso__text {
-    font-size: 1.8rem;
-    /* font-family: 'Caveat', cursive; */
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     text-align: center;
+    font-size: 1.6rem;
+  font-style: italic;
+  color: #00d3c0;
 }
 
 .andAlso__text2 {
-    font-size: 1.5rem;
-    margin-top: 3rem;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2rem;
 }
 
 .andAlso__flex {
@@ -34,16 +35,15 @@
 
 @media (max-width: 767px) {
     .andAlso__title {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
     
     .andAlso__text {
-        font-size: 1.5rem;
-        margin-top: 3rem;
+        font-size: 1.3rem;
     }
     
     .andAlso__text2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     
     .andAlso__img {

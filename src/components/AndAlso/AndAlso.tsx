@@ -2,7 +2,6 @@ import { ReactElement } from "react";
 import Container from "react-bootstrap/Container";
 
 import "./AndAlso.css";
-import heart from "./../../assets/hearts (1).png";
 
 export const AndAlso = (): ReactElement => {
   return (
@@ -18,7 +17,6 @@ export const AndAlso = (): ReactElement => {
           <div className="andAlso__text">
             Очень ждём вас на нашем празднике!
           </div>
-          <img className="andAlso__img" src={heart} alt="" />
         </div>
       </Container>
     </div>

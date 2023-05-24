@@ -8,4 +8,3 @@ export * from "./Card";
 export * from "./AppRouter";
 export * from "./Transport";
 export * from "./AndAlso";
-export * from "./Footer";

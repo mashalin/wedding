@@ -1,18 +1,28 @@
 .nav {
-    margin-left: auto;
-    font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav__link {
+  color: white;
+  font-family: 'proxima_nova_rgregular';
 }
 
  .navbar {
-   background: linear-gradient(#c3a7a6, rgb(245 244 247));
+   background: #01cac0;
 } 
 
-@media (max-width: 1200px) {
+@media (max-width: 990px) {
   .navbar__toggle {
     margin-left: auto;
+    margin-right: 1rem;
   }
 
   .nav__link {
     margin-left: auto;
+    margin-right: 1rem;
   }
 }

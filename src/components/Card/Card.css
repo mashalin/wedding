@@ -1,28 +1,44 @@
 .card {
     margin-top: 1.5rem;
+    min-height: 665px;
+    position: relative;
 }
 
 .card__text {
-    font-family: 'Caveat', cursive;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.4rem;
     margin-bottom: 0;
     margin-top: 1rem;
 }
 
 .card__sostav {
-    font-family: 'Caveat', cursive;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.1rem;
 }
 
 .card__title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-style: italic;
 }
 
 .card__img {
     height: 280px;
     object-fit: cover;
+}
+
+.card__button {
+    background-color: #00d3c0;
+    border-radius: 20px;
+    border-color: #00d3c0;
+    font-style: italic;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+
+.card__button:hover {
+    background-color: #04ac9d;
+    border-color: #04ac9d;
 }
 
 @media (max-width: 767px) {
