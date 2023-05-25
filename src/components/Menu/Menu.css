@@ -73,6 +73,11 @@
     border-radius: 20px;
 }
 
+.menu__button:hover {
+    background-color: #04ac9d;
+    border-color: #04ac9d;
+}
+
 .menu__toast {
     position: absolute;
     bottom: -3rem;

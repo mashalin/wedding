@@ -26,6 +26,11 @@
     border: #c3a7a6 solid 2px;
 }
 
+.admin__button_flex {
+    display: flex;
+    justify-content: center;
+}
+
 .admin__button {
     font-size: 1.5rem;
     text-align: center;

@@ -3,7 +3,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 import "./Header.css";
-import { Link } from "react-router-dom";
 
 export const Header = (): ReactElement => {
   return (
@@ -32,7 +31,6 @@ export const Header = (): ReactElement => {
           <Nav.Link className="nav__link" href="#andAlso">
             А ещё...
           </Nav.Link>
-          <Link to={"/admin"}>Admin</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

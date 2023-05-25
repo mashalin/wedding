@@ -8,6 +8,7 @@ import "./Admin.css";
 export const Admin = (): ReactElement => {
   const [toastShow, setToastShow] = useState(false);
   const [password, setPassword] = useState("");
+  const [clearMes, setClearMes] = useState("");
 
   const download = async () => {
     try {
@@ -26,6 +27,19 @@ export const Admin = (): ReactElement => {
     }
   };
 
+  const clear = async () => {
+    try {
+      if (password !== "adminPass333") {
+        setToastShow(true);
+        return;
+      }
+      await axios.get(`${process.env.REACT_APP_API_URL!}clearFile`);
+      setClearMes("Файл очищен");
+    } catch (e) {
+      throw e;
+    }
+  };
+
   return (
     <>
       <div className="admin__header">
@@ -39,9 +53,15 @@ export const Admin = (): ReactElement => {
           placeholder="Введите пароль..."
         />
       </div>
-      <Button onClick={download} className="admin__button" variant="warning">
-        Загрузить файл
-      </Button>
+      <div className="admin__button_flex">
+        <Button onClick={download} className="admin__button" variant="warning">
+          Загрузить файл
+        </Button>
+        <Button onClick={clear} className="admin__button" variant="warning">
+          Очистить файл
+        </Button>
+      </div>
+      <h5>{clearMes}</h5>
       <Toast
         className="admin__toast"
         bg={"danger"}
