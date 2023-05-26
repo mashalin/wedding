@@ -24,6 +24,13 @@ export const EventProgram = (): ReactElement => {
               плачем и смеемся на церемонии
             </div>
           </div>
+          <div className="event_program__block__flex">
+            <div className="event_program__block__flex__time">17.00</div>
+            <div>-</div>
+            <div className="event_program__block__flex__text">
+              празднуем до утра!
+            </div>
+          </div>
         </div>
 
         <div className="event_program__block">
